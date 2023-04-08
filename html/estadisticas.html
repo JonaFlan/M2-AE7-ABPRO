@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas</title>
+    <link href="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../html/index.html"><img style="width: 80px;" src="../images/logo.png"
+                    alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../html/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mb-5">
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Articulo</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Notebook</td>
+                    <td>SJ992</td>
+                    <td>499000</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Mouse</td>
+                    <td>343242jk</td>
+                    <td>12.990</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>PC Escritorio</td>
+                    <td>KFD8932</td>
+                    <td>699000</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Disco duro</td>
+                    <td>809423K</td>
+                    <td>100000</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Teclado</td>
+                    <td>SJ992</td>
+                    <td>20000</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>RAM</td>
+                    <td>989879K</td>
+                    <td>34990</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>Audifonos</td>
+                    <td>SH70</td>
+                    <td>109990</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Teclado</td>
+                    <td>G775</td>
+                    <td>94990</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>Raton</td>
+                    <td>G502</td>
+                    <td>49990</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <th scope="row">10</th>
+                    <td>Monitor</td>
+                    <td>24GN600</td>
+                    <td>234990</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="fixed-bottom" style="background-color: rgb(47, 47, 47); color:white;">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center">
+                    Duality - 2023
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/v/dt/dt-1.13.4/datatables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="../js/funciones.js"></script>
+</body>
+
+</html>
